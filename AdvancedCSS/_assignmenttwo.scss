@@ -1,0 +1,51 @@
+.assignment2 {
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .assignment2 .container {
+    position: relative;
+    width: 100%;
+  }
+  .assignment2 .container .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #686de0;
+    border-radius: 20px;
+  }
+  
+  .container:hover .card {
+    opacity: 1;
+  }
+  
+  .buttontext {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .buttontext button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,19 @@
+// Variables
+
+$header: darkblue;
+$background: #c3cfe2;
+$general: #fff;
+
+// Imports
+
+@import "_assignmentone.scss"; 
+@import "_assignmenttwo.scss";
+@import "_assignmentthree.scss";
+@import "_header";
+
+// General CSS
+
+html {
+    background-color: #c3cfe2;
+    margin: 10px;
+}

@@ -1,0 +1,251 @@
+.assignment1 {
+  display: block;
+  position: relative;
+  background-color: white;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  height: 300px;
+  width: 300px;
+  color: darkgray;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.assignment1image {
+  position: absolute;
+  z-index: 1;
+  top: 420px;
+  left: 150px;
+}
+
+.assignmentimage {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.assignment1footer {
+  display: block;
+  position: relative;
+  background-color: #686de0;
+  width: 300px;
+  height: 100px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  padding: 30px;
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.assignment1footer .assignment1footer2 {
+  color: rgb(180, 178, 178);
+}
+
+.assignment2 {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.assignment2 .container {
+  position: relative;
+  width: 100%;
+}
+
+.assignment2 .container .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #686de0;
+  border-radius: 20px;
+}
+
+.container:hover .card {
+  opacity: 1;
+}
+
+.buttontext {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.buttontext button {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 400px) {
+  .buttons {
+    position: fixed;
+    top: 250px;
+    right: -300px;
+    padding: 0;
+    transform: translateY(-12%);
+    width: 350px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .buttons {
+    position: fixed;
+    top: 250px;
+    right: -300px;
+    padding: 0;
+    transform: translateY(-12%);
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .buttons {
+    position: fixed;
+    top: 350px;
+    right: -300px;
+    padding: 0;
+    transform: translateY(-12%);
+    width: 350px;
+  }
+}
+.boxone {
+  background-color: #e17b77;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  width: 260px;
+  color: #fff;
+  height: 60px;
+}
+.boxone:hover {
+  transform: translateX(-70%);
+}
+.boxone .imageblog {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.boxtwo {
+  background-color: #00aced;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  width: 260px;
+  color: #fff;
+  height: 60px;
+}
+.boxtwo:hover {
+  transform: translateX(-70%);
+}
+.boxtwo .imagetwitter {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.boxthree {
+  background-color: #007bb6;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  width: 260px;
+  color: #fff;
+  height: 60px;
+}
+.boxthree:hover {
+  transform: translateX(-70%);
+}
+.boxthree .in {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.boxfour {
+  background-color: #3b5998;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  width: 260px;
+  color: #fff;
+  height: 60px;
+}
+.boxfour:hover {
+  transform: translateX(-70%);
+}
+.boxfour .fb {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.boxfive {
+  background-color: #333;
+  align-items: center;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  width: 260px;
+  color: #fff;
+  height: 60px;
+}
+.boxfive:hover {
+  transform: translateX(-70%);
+}
+.boxfive .imagegithub {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:link:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: lightgrey;
+  padding: 10px;
+  margin: 25px;
+  text-align: center;
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 5px dashed darkblue;
+  border-radius: 10%;
+}
+
+html {
+  background-color: #c3cfe2;
+  margin: 10px;
+}/*# sourceMappingURL=scss.css.map */

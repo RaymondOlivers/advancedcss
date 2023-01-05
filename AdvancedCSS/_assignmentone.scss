@@ -1,0 +1,44 @@
+.assignment1 {
+    display: block;
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 300px;
+    width: 300px;
+    color: darkgray;
+    font-size: 25px;
+    padding: 30px;
+
+}
+
+.assignment1image {
+    position: absolute;
+    z-index: 1;
+    top: 420px;
+    left: 150px;
+}
+
+.assignmentimage {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.assignment1footer {
+    display: block;
+    position: relative;
+    background-color: #686de0;
+    width: 300px;
+    height: 100px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    .assignment1footer2 {
+        color: rgb(180, 178, 178);
+    }
+}
+
